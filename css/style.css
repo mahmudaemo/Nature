@@ -1,0 +1,144 @@
+/* font-family: 'DM Sans', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    margin-right: 20px;
+    transition: .5s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #FFD936;
+}
+.banner-content h3{
+    color: #fff;
+    font-size: 50px;
+    line-height: 25px;
+    font-family: 'DM Sans', sans-serif;
+}
+.banner-content h1{
+color: #fff;
+font-size: 110px;
+font-weight: 400;
+font-family: 'DM Sans', sans-serif;
+}
+.banner-content p{
+color: #fff;
+font-size: 16px;
+}
+.btn-custom{
+background-color: #FFD936;
+font-size: 16px;
+padding: 10px 30px;
+}
+.btn-custom:hover{
+    background: #DAB200;
+    color: #606A33;
+}
+.service-content{
+
+}
+.service-content img{
+
+}
+.service-content h4{
+    color: #606A33;
+    margin-top: 25px;
+    font-family: 'DM Sans', sans-serif;
+}
+.service-content p{
+    color: #819387;
+    margin-top: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+.heading-service{
+align-items: center;
+}
+.heading-service h1{
+    color: #606A33;
+    margin-bottom: 30px;
+}
+.heading-service span{
+    background: #FFD936;
+    display: block;
+    height: 2px;
+    width: 10%;
+}
+.customer{
+    background: #F5F8F6
+}
+.customer h2{
+    color: #536942;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+}
+.customer a{
+    color: #536942;
+    font-size: 40px;
+}
+.customer h6{
+    font-family: 'DM Sans', sans-serif;
+    color: #819387;
+    font-size: 15px;
+}
+.customer img{
+width: 10%;
+}
+.about-us h6{
+    font-family: 'DM Sans', sans-serif;
+    color: #819387;
+    font-size: 12px;
+}
+.about-us h3{
+    color: #536942;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+}
+.about-us p{
+    font-family: 'DM Sans', sans-serif;
+    color: #819387;
+    font-size: 15px;
+}
+.question{
+    background-image: url(../images/question.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+.question h1{
+    color: #536942;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+}
+.question p{
+    color: #606A33;
+    font-family: 'DM Sans', sans-serif;
+}
+footer{
+    color: #536942;
+    font-family: 'DM Sans', sans-serif;
+    align-items: center;
+}
+footer ul{
+list-style: none;
+display: flex;
+justify-content: space-between;
+}
+footer ul li{
+margin-left: 10px;
+}
+footer img{
+    width: 15%;
+}
